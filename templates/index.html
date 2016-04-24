@@ -1,11 +1,16 @@
-<!doctype html>
-<html>
-<head>
+{% extends 'base.html' %}
+{% block head %}
     <title>Sample Home Page</title>
-</head>
-<body>
+{%  endblock %}
+
+{% block body %}
 
 <h1>This is the sample home page.</h1>
 
-</body>
-</html>
+<p>
+
+<a href="/application-form">Application</a>
+
+</p>
+
+{% endblock %}

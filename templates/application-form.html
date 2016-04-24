@@ -1,10 +1,9 @@
-<!doctype html>
-<html>
-<head>
+{% extends 'base.html' %}
+{% block head %}
     <title>Skills-HTML-CSS</title>
-    <link rel="stylesheet" href="static/styles.css">
-</head>
-<body>
+{% endblock %}
+
+{% block body %}
 <!-- your html goes here -->
 <div id="instructions">
     <h1>Job Application</h1>
@@ -29,9 +28,9 @@
     <!--Desired position dropdown-->
     <label>Desired Position:
         <select class="input" name="position">
-            <label><option value="software-engineer">Software Engineer</option></label>
-            <label><option value="qa-engineer">QA Engineer</option></label>
-            <label><option value="product-manager">Product Manager</option></label>
+            <label><option value="Software Engineer">Software Engineer</option></label>
+            <label><option value="QA Engineer">QA Engineer</option></label>
+            <label><option value="Product Manager">Product Manager</option></label>
         </select>
         </label>
         <br>
@@ -39,5 +38,5 @@
         <input type="submit">
     </label>
 </form>
-</body>
-</html>
+
+{% endblock %}
