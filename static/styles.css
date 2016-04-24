@@ -1,1 +1,19 @@
-/* Your styles can go here. */
+/* Your CSS goes here */
+input {
+    background-color: yellow;
+}
+
+select {
+    background-color: yellow;
+}
+#last-name {
+    font-weight: bold;
+}
+
+#instructions {
+    border: solid 4px black;
+}
+
+form {
+    style: inline
+}
